@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>サポート - SokuMemo</title>
+  <meta name="description" content="SokuMemo のサポート（よくある質問とお問い合わせ）">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">SokuMemo</a>
+      <a href="support.html" aria-current="page">サポート</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </nav>
+    <h1>サポート</h1>
+    <p class="lead">よくある質問とお問い合わせ</p>
+  </header>
+
+  <main>
+    <h2 id="contact">お問い合わせ</h2>
+    <div class="card">
+      <p>不具合のご報告、ご質問、ご要望は、次のフォームからお送りください。</p>
+      <!-- TODO: 問い合わせフォームの URL が決まったら、href と文言を差し替える -->
+      <p><a href="#">お問い合わせフォーム（準備中）</a></p>
+      <p class="note">個人で開発しているため、お返事やご要望への対応にお時間をいただくこと、すべてにお応えできないことがあります。不具合のご報告では、iPhone の機種と iOS のバージョン、起きたときの操作を書いていただけると助かります。</p>
+    </div>
+
+    <h2>よくある質問</h2>
+
+    <h3>メモはどこに保存されますか？</h3>
+    <p>iPhone の中の SokuMemo のフォルダに、1つずつ Markdown ファイル（.md）として保存されます。「ファイル」アプリの「このiPhone内」→「SokuMemo」から見られます。入力は自動で保存されます。</p>
+
+    <h3>Mac やほかの端末と同期できますか？</h3>
+    <p>同期の機能はありません。ほかの端末やアプリで使うときは、メモの情報の画面の共有ボタンでファイルを渡すか、「ファイル」アプリから AirDrop などで送ってください。</p>
+
+    <h3>アプリを削除するとメモはどうなりますか？</h3>
+    <p>アプリを削除すると、アプリのフォルダにあるメモも削除されます。残したいメモは、削除の前に「ファイル」アプリでほかの場所にコピーしてください。iPhone の iCloud バックアップがオンなら、メモはバックアップにも含まれます。</p>
+
+    <h3>ほかの Markdown アプリ（Obsidian など）で開けますか？</h3>
+    <p>開けます。メモは一般的な Markdown ファイルです。説明とタグは、メモの冒頭に YAML のフロントマター（<code>description</code>・<code>tags</code>）として書き込まれ、Obsidian ではプロパティとして表示されます。</p>
+
+    <h3>表はどう書きますか？</h3>
+    <p>キーボードの上の表のボタンから「表」を押すと、ひな形が入ります。行の末尾で改行すると行が増え、「列」で列を足せます。マスの中で改行したいときは <code>&lt;br&gt;</code> を入れてください。表の上を長押しまたはダブルタップして「表を見る」を選ぶと、マス目にして表示します。</p>
+
+    <h3>カメラの読み取りが使えません</h3>
+    <p>初めて使うときに、カメラの使用の許可を求められます。許可しなかった場合は、iPhone の「設定」アプリ →「SokuMemo」で、カメラをオンにしてください。古い機種では、QR コード・バーコードの読み取りに対応していないことがあります。</p>
+
+    <h3>AI の提案（説明・タグ）が出てきません</h3>
+    <p>Apple Intelligence に対応した機種で、「設定」アプリで Apple Intelligence がオンのときだけ使えます。実験的な機能のため、提案の内容や精度は保証できません。</p>
+
+    <h3>選んだ文字の検索では、何が送られますか？</h3>
+    <p>選んだ文字だけが、選んだ検索先（Google など）に送られます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+    <div class="card">
+      <h3>動作環境</h3>
+      <ul>
+        <li>iPhone（iOS 26 以降）</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 hellboy84</p>
+  </footer>
+</body>
+</html>
